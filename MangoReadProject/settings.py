@@ -34,8 +34,6 @@ INSTALLED_APPS = [
     "movie_cards",
     "users",
     "django_filters",
-
-
 ]
 
 MIDDLEWARE = [

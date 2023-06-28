@@ -7,7 +7,7 @@ from movie_cards.views import (
 )
 
 urlpatterns = [
-    path("movie/", MovieViewSet.as_view({'get': 'list'}), name="КАрточки"),
+    path("movie/", MovieViewSet.as_view({'get': 'list'}), name="Карточки"),
     path("movie/<int:id>/", MovieDetailViewSet.as_view({'get': 'retrieve'}), name="Карточки по ID"),
     path("reviews/", ReviewViewSet.as_view({'get': 'list', 'post': 'create'}), name="Рецензии"),
 ]
